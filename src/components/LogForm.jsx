@@ -5,7 +5,7 @@ const LogForm = () => {
   const [eventType, setEventType] = useState("");
   const [timestamp, setTimestamp] = useState("");
   const [sourceAppId, setSourceAppId] = useState("");
-  const [dataPayload, setDataPayload] = useState("{}");
+  const [dataPayload, setDataPayload] = useState("{      }");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
